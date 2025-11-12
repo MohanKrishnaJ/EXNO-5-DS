@@ -34,7 +34,8 @@ plt.ylabel('y-axis')
 plt.title("Two lines on the same graph")
 plt.legend()
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/002adf5a-97bc-437d-8d6a-1b964d1c6d46)
+<img width="739" height="507" alt="image" src="https://github.com/user-attachments/assets/45004ae6-6e39-47f5-8bb7-07bfce84fa3f" />
+
 
 ### Customization of plots
 ```python
@@ -50,21 +51,23 @@ plt.ylabel('y-axis')
 
 plt.title("Customization of Plots")
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/eb018fda-6e86-4df0-a3a8-ba67d5ddf632)
+<img width="734" height="504" alt="image" src="https://github.com/user-attachments/assets/593b5cb2-1962-4c16-ad9e-cdadae4f664f" />
+
 
 ### Implementation using Matplotlib
 ```python
 yield_orange=[0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
 plt.plot(yield_orange, color='sienna', linewidth=3)
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/0e5e95df-fbc5-4932-ac5a-9d0473167431)
+<img width="744" height="467" alt="image" src="https://github.com/user-attachments/assets/077df05d-afc8-4b65-b38b-5131d332f7be" />
 
 ```python
 years= [2010, 2011, 2012, 2013, 2014, 2015]
 yield_apples=[0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
 plt.plot(years, yield_apples, color='chocolate', linewidth=3)
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/97d24b81-513d-4e88-8db5-7b3ba45ad3be)
+<img width="649" height="456" alt="image" src="https://github.com/user-attachments/assets/2794ed6f-5a45-4a0d-aae0-da0a89402379" />
+
 
 ```python
 years = range(2000, 2012) 
@@ -83,14 +86,14 @@ plt.ylabel('Yield (tons per hectare)')
 plt.title("Crop Yields in Kanto")
 plt.legend(['Apples', 'Oranges'])
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/40620a05-10f9-46c4-b1ef-fec22a2f44ce)
+<img width="747" height="509" alt="image" src="https://github.com/user-attachments/assets/f578991c-df1a-47b4-b131-76f3847cc9cf" />
 
 ```python
 plt.figure(figsize=(12, 6))
 plt.plot(years, oranges, marker='o')
 plt.title("vield of Oranges (tons per hectare)") 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/7240f811-daee-4a9a-acb0-b7921fcecc67)
+<img width="1059" height="572" alt="image" src="https://github.com/user-attachments/assets/f83c417c-847b-43a2-b39a-aabb387c19bc" />
 
 ```python
 plt.plot(years, apples, marker='o')
@@ -100,7 +103,8 @@ plt.ylabel('Yield (tons per hectare)')
 plt.title("Crop Yields in Kanto")
 plt.legend([ 'Apples', 'Oranges']) 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/1c1c071b-b001-407c-8f1f-d3a673443d18)
+<img width="765" height="494" alt="image" src="https://github.com/user-attachments/assets/6447fd6e-2e50-43ff-a1f6-0f723e0334a7" />
+
 
 ### Scatter Plot
 ```python
@@ -110,7 +114,8 @@ y_values = [0,1,4,9,16,25]
 plt.scatter(x_values, y_values,s=30, color="blue") 
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/376aa83f-e208-4672-994f-7101d575fa80)
+<img width="765" height="449" alt="image" src="https://github.com/user-attachments/assets/1446b3f3-fa01-49a4-b6b3-440e2dc532c8" />
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -130,7 +135,8 @@ plt.ylabel('Y axis')
 plt.title( 'Graph in 2D')
 plt.savefig('Test.png')
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/d582fdcc-f2f3-4503-bec8-81d05dfa8581)
+<img width="706" height="487" alt="image" src="https://github.com/user-attachments/assets/decd5b09-81a3-4c1e-804d-9b4ba781da0f" />
+
 
 ![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/7a01f98b-1e1f-47a5-a04e-c0720e308590)
 
@@ -140,7 +146,8 @@ plt.xlabel( 'X axis')
 plt.ylabel( 'Y axis')
 plt.title('2d Diagram') 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/c778f1eb-9e6d-4d85-aa87-dc115db5e1bb)
+<img width="682" height="505" alt="image" src="https://github.com/user-attachments/assets/1350898b-b23a-4bc9-974c-d975128dd718" />
+
 
 ![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/1d0a16e4-1402-4725-9696-a66465327143)
 
@@ -151,7 +158,8 @@ plt.title('sine wave form')
 plt.plot(x, y)
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/ecd74a1b-8eeb-44b4-a592-ea20184e73c1)
+<img width="722" height="469" alt="image" src="https://github.com/user-attachments/assets/094b7bb8-2806-4437-b062-c822bf7160bd" />
+
 
 ### Area Chart
 ```python
@@ -168,7 +176,7 @@ plt.plot(x, y2, color='black')
 plt.legend(['y1','y2'])
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/2237fffd-023e-465f-a62c-2553fbf81f5c)
+<img width="622" height="438" alt="image" src="https://github.com/user-attachments/assets/0d3cd464-b70e-497f-9bf9-b9d13eba09cb" />
 
 ### Bar Chart
 ```python
@@ -189,7 +197,8 @@ plt.title('Bar Chart')
 
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/60c652ad-619b-4720-a076-0ffe932e29b9)
+<img width="670" height="492" alt="image" src="https://github.com/user-attachments/assets/8756efa5-826c-425b-adcd-e1fd64d35c52" />
+
 
 ```python
 x = [2,8,10]
@@ -203,7 +212,7 @@ plt.ylabel('Y axis')
 plt.xlabel('X axis')
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/b23a89ae-b968-4487-bde3-8360572970da)
+<img width="726" height="519" alt="image" src="https://github.com/user-attachments/assets/a9a82e18-8b4e-4aad-bcd1-aa96f52a9934" />
 
 ### Histogram
 ```python
@@ -223,7 +232,8 @@ plt.title('My histogram')
 
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/6570d720-045d-40e7-b287-6f7722a4d5ed)
+<img width="704" height="523" alt="image" src="https://github.com/user-attachments/assets/bd7b55ca-17c5-494c-9b93-4da06f4b19af" />
+
 
 ### Box Plot
 ```python
@@ -234,7 +244,8 @@ np.random.seed(0)
 data = np.random.normal(loc=0, scale=1, size=100)
 data 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/55eb17fa-98e9-44c6-8e6c-e42b4fd30ff2)
+<img width="690" height="386" alt="image" src="https://github.com/user-attachments/assets/71f99cf2-9c70-4d11-b1c0-da947553fccf" />
+
 
 ```python
 fig, ax = plt.subplots() 
@@ -243,7 +254,7 @@ ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot') 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/a7a684a7-4b2b-4b39-b8b0-e44132ec9b09)
+<img width="736" height="500" alt="image" src="https://github.com/user-attachments/assets/66292518-7c23-4e93-b38b-58bcf6d79600" />
 
 ### Pie Chart
 ```python
@@ -256,7 +267,8 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%',
 plt.axis('equal')
 plt.show() 
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/bcb6b879-9c44-4cde-b6c6-d235b9b38d99)
+<img width="678" height="434" alt="image" src="https://github.com/user-attachments/assets/df0d7d3e-242f-499f-80a2-efa21da1e777" />
+
 
 ```python
 activities = ['eat', 'sleep', 'work', 'play']
@@ -269,7 +281,8 @@ plt.pie(slices, labels = activities, colors=colors, startangle=90, shadow = True
 
 plt.legend()
 ```
-![image](https://github.com/varshasharon/EXNO-5-DS/assets/98278161/b3174e4d-8d2e-4e52-aab0-075bb07c8ac2)
+<img width="595" height="477" alt="image" src="https://github.com/user-attachments/assets/9e8ebbff-8992-4fa3-8213-8a29c3f55466" />
+
 
 # Result:
 Thus, all the data visualization techniques of matplotlib has been implemented.
